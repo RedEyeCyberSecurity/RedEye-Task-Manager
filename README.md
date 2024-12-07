@@ -2,9 +2,16 @@
 RedEye-Task Manager
 
 
+How to Run
 
-Code Overview
-Here’s how the features are implemented:
+git clone https://github.com/<username>/simple-task-manager.git
+cd simple-task-manager
+
+Install dependencies (if not already installed):
+pip install psutil
+
+
+python app.py
 
 🛠️ 1. View Active Processes
 Processes are fetched using psutil.process_iter() and dynamically updated in the Listbox on every refresh.
