@@ -13,6 +13,15 @@ pip install psutil
 
 python app.py
 
+
+🚀 Features
+🖥️ Process List Display: View all active processes in real-time with their PID and Name.
+🔄 Refresh Process List: Always stay updated with the latest running processes.
+❌ Terminate Processes: Kill unwanted or problematic processes directly from the GUI.
+🛡️ Error Handling: Handle permission issues, process access errors, and ensure smooth user experience.
+📊 Cross-platform Support: Built with psutil for compatibility across platforms like Windows, Linux, and macOS.
+
+
 🛠️ 1. View Active Processes
 Processes are fetched using psutil.process_iter() and dynamically updated in the Listbox on every refresh.
 
