@@ -4,7 +4,7 @@ RedEye-Task Manager
 
 How to Run
 
-git clone https://github.com/<username>/simple-task-manager.git
+git clone https://github.com/RedEyeCyberSecurity/RedEye-Task-Manager.git
 cd simple-task-manager
 
 Install dependencies (if not already installed):
